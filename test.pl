@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use perl1;
 use Test::Simple tests => 5;
-my $Body = "{“FirstName”: “Kumar””LastName”: “value”,”UserName”: “Kuldeep”,”Password”: “Password123”,”Email”: “Kuldeep\@kumar.com”}";
+my $Body = '{“FirstName”: “Kumar””LastName”: “value”,”UserName”: “Kuldeep”,”Password”: “Password123”,”Email”: “Kuldeep\@kumar.com”}';
 my $obj = new POSTReq($Body,"http://restapi.demoqa.com/customer/regist"); #wrong URL
 ok ($obj->POST_Req() == 404, "URL Not Found");
 my $objA = new POSTReq($Body,"http://restapi.demoqa.com/customer/register");
