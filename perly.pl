@@ -1,7 +1,6 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
-use lib "/Users/kuldeepsharma/Desktop";
 use perl1;
 use Data::Dumper;
 my $Body = "{“FirstName”: “Kumar””LastName”: “value”,”UserName”: “Kuldeep”,”Password”: “Password123”,”Email”: “Kuldeep\@kumar.com”}";
