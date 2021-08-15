@@ -34,8 +34,6 @@ sub POST_Req(){
     }
     return $response->code;
 }
-1;
-
 package DELETEReq; 
 sub new{
     my $class=shift;
